@@ -8,7 +8,8 @@
 * To try out the new Tensor-Core version of GPU-FPX that has merged
   the functionality into one tool called "detector.so", do this:
    - Follow the instructions on https://github.com/LLNL/GPU-FPX](https://github.com/parfloat/nixnan.
-   - ...change/add the relevant things...
+   - This version currently only supports compute capability 8.6, so programs
+     should be compiled with the `-arch=sm_86` flag.
 
 * To reproduce the SRU results of Sec 3.1, please do the following:
    - As instructed in https://github.com/asappresearch/sru/, do pip install sru
