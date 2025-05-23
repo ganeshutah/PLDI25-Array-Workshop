@@ -7,7 +7,7 @@
    - The version without the hang is in the nvbit-1.7.5 branch of https://github.com/LLNL/GPU-FPX.
 * To try out the new Tensor-Core version of GPU-FPX that has merged
   the functionality into one tool called "detector.so", do this:
-   - Follow the instructions on https://github.com/LLNL/GPU-FPX
+   - Follow the instructions on https://github.com/LLNL/GPU-FPX](https://github.com/parfloat/nixnan.
    - ...change/add the relevant things...
 
 * To reproduce the SRU results of Sec 3.1, please do the following:
