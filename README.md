@@ -4,7 +4,7 @@
    - Follow instructions on https://github.com/LLNL/GPU-FPX to install
      and build GPU-FPX. Then try out the examples in this paper as
      described below.
-
+   - The version without the hang is in the nvbit-1.7.5 branch of https://github.com/LLNL/GPU-FPX.
 * To try out the new Tensor-Core version of GPU-FPX that has merged
   the functionality into one tool called "detector.so", do this:
    - Follow the instructions on https://github.com/LLNL/GPU-FPX
