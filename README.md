@@ -1,6 +1,6 @@
 # PLDI25-Array-Workshop
 
-* The published paper is available as a PDF in this directory.
+* The published paper is available as https://github.com/ganeshutah/PLDI25-Array-Workshop/PAPER.pdf in this directory.
 
 * To reproduce the results in this paper, you'll need GPU-FPX's old version with the hang bug fix (for Sec 3.1-3.3)
    - Follow instructions on https://github.com/LLNL/GPU-FPX to install
