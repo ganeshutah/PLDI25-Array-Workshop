@@ -1,13 +1,18 @@
 # PLDI25-Array-Workshop
 
+* The published paper is available as a PDF in this directory.
+
 * To reproduce the results in this paper, you'll need GPU-FPX's old version with the hang bug fix (for Sec 3.1-3.3)
    - Follow instructions on https://github.com/LLNL/GPU-FPX to install
      and build GPU-FPX. Then try out the examples in this paper as
      described below.
    - The version without the hang is in the nvbit-1.7.5 branch of https://github.com/LLNL/GPU-FPX.
+
 * To try out the new Tensor-Core version of GPU-FPX that has merged
   the functionality into one tool called "detector.so", do this:
-   - Follow the instructions on https://github.com/LLNL/GPU-FPX](https://github.com/parfloat/nixnan.
+   - Follow the general instructions on https://github.com/LLNL/GPU-FPX.git
+     but with priority to instructions in https://github.com/parfloat/nixnan.git (new version).
+	 
    - This version currently only supports compute capability 8.6, so programs
      should be compiled with the `-arch=sm_86` flag.
 
