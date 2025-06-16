@@ -2,6 +2,8 @@
 
 * [Read (Download) the paper (PDF)](https://github.com/ganeshutah/PLDI25-Array-Workshop/raw/main/PAPER.pdf)
 
+* [Slides (PDF) are here](https://github.com/ganeshutah/PLDI25-Array-Workshop/raw/main/SLIDES.pdf)
+
 * To reproduce the results in this paper, you'll need GPU-FPX's old version with the hang bug fix (for Sec 3.1-3.3)
    - Follow instructions on https://github.com/LLNL/GPU-FPX to install
      and build GPU-FPX. Then try out the examples in this paper as
